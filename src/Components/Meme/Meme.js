@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import memeData from "../../data/meme.js";
 
 export default function Meme() {
   return (
