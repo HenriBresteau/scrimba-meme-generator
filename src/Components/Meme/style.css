@@ -32,4 +32,9 @@ input[type="text"] {
   font-size: 16px;
   line-height: 19px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.22);
+  transform: translateY(-4px);
 }
