@@ -1,0 +1,36 @@
+nav {
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  padding: 18px 40px;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Karla", sans-serif;
+  color: white;
+}
+.nav--logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.nav--logo .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+}
+.nav--logo .brand h2 {
+  font-weight: 700;
+  font-size: 20.7482px;
+  line-height: 24px;
+  letter-spacing: -0.1em;
+}
+
+.nav--course h3 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+}

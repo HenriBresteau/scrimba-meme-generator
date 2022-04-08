@@ -1,5 +1,10 @@
 import React from "react";
+import Navbar from "./Components/Navbar/Navbar";
 
 export default function App() {
-  return <h1>Couou</h1>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
