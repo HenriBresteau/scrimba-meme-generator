@@ -38,3 +38,9 @@ input[type="text"] {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.22);
   transform: translateY(-4px);
 }
+
+.meme-img {
+  width: 100%;
+  margin: 50px auto;
+  padding: 36px;
+}
