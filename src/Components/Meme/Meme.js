@@ -8,7 +8,7 @@ export default function Meme() {
     bottomText: "",
     randomImage: "http://i.imgflip.com/1bij.jpg",
   });
-  
+
   const [allMemeImages, setAllMemeImages] = useState(memeData);
 
   function getMemeImage() {
@@ -20,9 +20,10 @@ export default function Meme() {
   }
 
   function handleChange(event) {
+    const { name, value } = event.target;
     setMeme((prevState) => ({
       ...prevState,
-      [event.traget.name]: event.traget.value,
+      [name]: value,
     }));
   }
   return (
@@ -55,7 +56,11 @@ export default function Meme() {
           </div>
         </div>
       </form>
-      <img src={meme.randomImage} alt="meme" className="meme-img" />
+      <div className="meme">
+        <img src={meme.randomImage} alt="meme" className="meme-img" />
+        <h2 className="meme--text top">{meme.topText}</h2>
+        <h2 className="meme--text bottom">{meme.bottomText}</h2>
+      </div>
     </section>
   );
 }
